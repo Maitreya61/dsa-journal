@@ -1,0 +1,41 @@
+
+.box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.Easy{
+    padding: 3px 5px;
+    background-color: #F0FDF4;
+    color: #64BEBE;
+}
+
+.Medium{
+    padding: 3px 5px;
+    background-color: #FEFCE8;
+    color: #EEC579;
+}
+
+.Hard{
+    padding: 3px 5px;
+    background-color: #FEF2F2;
+    color: #B91C1D;
+}
+
+.add-input{
+    width: 75%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #cad3cc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.max-width{
+    max-width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    .max-width{
+        max-width: 150px;
+    }
+  }
