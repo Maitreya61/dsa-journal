@@ -40,7 +40,7 @@ export default async function Item() {
                             <div className='text-lg text-yellow-400 font-semibold underline max-width'>
                                 <Link href={note.link}>{note.title}</Link>
                             </div>
-                            <div className="flex flex-row justify-between items-center gap-7 lg:gap-40">
+                            <div className="flex flex-row justify-between items-center gap-4 lg:gap-40">
                             <div>
                                 <h3 className="text-center">{note.topic}</h3>
                             </div>

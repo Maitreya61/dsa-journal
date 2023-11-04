@@ -60,7 +60,7 @@ export default function EditForm({title,link,topic,difficulty,notes,id}:EditForm
                     <div><h1 className='text-3xl font-bold font-sans'>Edit Notes</h1></div>
                     <div className='text-3xl'><Link href={'/'}><RxCross2/></Link></div>
                 </div>
-                <div className='flex flex-col justify-between items-center m-10'>
+                <div className='flex flex-col justify-between items-center m-5'>
                     <input type="text" placeholder='Title' className='add-input' value={newtitle} onChange={(e)=>setTitle(e.target.value)}/>
                     <input type="text" placeholder='Link' className='add-input' value={newlink} onChange={(e)=>setLink(e.target.value)}/>
                     <input type="text" placeholder='Topic' className='add-input' value={newtopic} onChange={(e)=>setTopic(e.target.value)}/>

@@ -46,7 +46,7 @@ export default function New(){
                     <div><h1 className='text-3xl font-bold font-sans'>New Entry</h1></div>
                     <div className='text-3xl'><Link href={'/'}><RxCross2/></Link></div>
                 </div>
-                <div className='flex flex-col justify-between items-center m-10'>
+                <div className='flex flex-col justify-between items-center m-5'>
                     <input type="text" placeholder='Title' className='add-input' onChange={(e)=>setTitle(e.target.value)} required={true}/>
                     <input type="text" placeholder='Link' className='add-input' onChange={(e)=>setLink(e.target.value)} required={true}/>
                     <input type="text" placeholder='Topic' className='add-input' onChange={(e)=>setTopic(e.target.value)} required={true}/>
